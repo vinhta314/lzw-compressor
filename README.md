@@ -5,12 +5,12 @@ The encoding was implemented using fixed 12-bit codes. For an odd number of byte
 
 ## Using the Compressor class
 
-The compressor class is initialised with the filepath to the text file. This module currently only supports the first 256 unicode characters `Decimal: 0 - 255`.
+Initialised the Compressor class with the filepath to the text file. This module currently only supports the first 256 unicode characters `Decimal: 0 - 255`.
 ```
+compressor_object = Compressor(<filepath to .txt file>)
 ```
-compressor_object = Compressor(<filepath to .txt file>
-```
-
+Use `compressor_object.encoded_text` to return the 12-bit encoded text as a list of integers.
+Use `compressor_object.compression_ratio` to return the 
 
 
 
