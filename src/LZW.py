@@ -58,7 +58,7 @@ class Compressor:
         compressed_bytes = math.ceil(len(self.encoded_text) * 12 / 8)
         uncompressed_bytes = len(self._text)
 
-        return compressed_bytes / uncompressed_bytes
+        return uncompressed_bytes / compressed_bytes
 
     def _initialise_code_table(self):
         """
