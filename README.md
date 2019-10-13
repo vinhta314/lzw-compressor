@@ -13,7 +13,7 @@ To return the 12-bit encoded text as a list of intergers use:
 ```
 compressor_object.encoded_text
 ```
-The compression ratio is calculated as the `compressed number of bytes / uncompressed number of bytes`.
+The compression ratio is a measure of the reduction in data needed to represent the text after the LZW compression. It is calculated as the `uncompressed number of bytes / compressed number of bytes`. 
 ```
 compressor_object.compression_ratio
 ```
