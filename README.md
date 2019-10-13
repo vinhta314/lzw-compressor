@@ -39,7 +39,7 @@ decompressor_object.save_text(<save filepath for the .txt file>)
 
 ## Testing
 
-Some dummy files have been included in the `src/test_files` directory to test the compression and decompression classes:
+Some dummy files have been included in the `src/test_files` directory to test the compression and decompression classes.
 ```
 dummy_text.txt
 dummy_compressed_file.z
