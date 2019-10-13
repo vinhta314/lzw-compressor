@@ -259,13 +259,3 @@ class Decompressor:
         byte_int = int.from_bytes(bytes, byteorder='big')
 
         return byte_int >> 4
-
-
-
-
-
-
-
-
-
-
